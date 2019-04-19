@@ -8,6 +8,7 @@ repos:
       - id: trailing-whitespace
   - repo: https://github.com/userhas404d/git-hooks
     rev: 59684290243f85f2d052181ceb46e8b6969f180b
+    stages: [commit, push]
     hooks:
       - id: spellcheck
-      files: *
+        files: \*.*
