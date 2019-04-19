@@ -6,7 +6,7 @@ repos:
       - id: check-yaml
       - id: check-merge-conflict
       - id: trailing-whitespace
-  - repo: https://github.com/userhas404/pre-commit
-    rev: v0.0.1
+  - repo: https://github.com/userhas404d/git-hooks
+    rev: 59684290243f85f2d052181ceb46e8b6969f180b
     hooks:
       - id: spellcheck
