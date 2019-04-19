@@ -10,3 +10,4 @@ repos:
     rev: 59684290243f85f2d052181ceb46e8b6969f180b
     hooks:
       - id: spellcheck
+      files: *
